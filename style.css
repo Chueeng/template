@@ -1,0 +1,15 @@
+html {
+    box-sizing: border-box;
+    /* anytime u add padding to any element,
+     what can happen is, that padding will stretch the page
+     let say the page have 100% of the viewport and u add padding to it
+     it will force to add horinzontal scrollbar 
+     ***prevent add extra padding
+     */
+}
+body {
+    margin:0;
+    min-height: 100vh;
+    /* full height entire window, 
+    that mean stretch the background to full height even the content is not enough height */
+}
